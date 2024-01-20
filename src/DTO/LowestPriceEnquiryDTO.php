@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\DTO;
 
-class LowestPriceEnquiryDTO implements \JsonSerializable
+class LowestPriceEnquiryDTO implements PromotionEnquiryInterface
 {
     private ?int $productId;
     private ?int $quantity;
